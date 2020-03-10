@@ -6,7 +6,7 @@ scalaVersion := "2.13.1"
 resolvers += "jitpack" at "https://jitpack.io"
 
 libraryDependencies ++= Seq(
-  "com.github.cornerman.outwatch" %%% "outwatch" % "d54ead9",
+  "com.github.outwatch.outwatch" %%% "outwatch" % "5cd5e01",
   "org.scalatest" %%% "scalatest" % "3.0.8" % Test
 )
 
